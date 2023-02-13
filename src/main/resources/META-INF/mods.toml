@@ -1,25 +1,28 @@
 modLoader = "javafml"
-loaderVersion = "[41,)"
+loaderVersion = "[43,)"
 license = "GNU LGPLv3"
-issueTrackerURL = "https://github.com/Real-Gecko/XPFromHarvest/issues"
 [[mods]]
 modId = "xpfromharvest"
-version = "1.2.2"
+version = "${file.jarVersion}"
+displayTest="IGNORE_ALL_VERSION"
 displayName = "XP From Harvest"
-displayURL = "https://minecraft.curseforge.com/projects/xp-from-harvest"
-authors = "RealGecko"
+displayURL = "https://github.com/LiskoSlayer63/XPFromHarvest/tree/1.19"
+authors = "LiskoSlayer63"
+credits = "RealGecko"
 description = '''
-Literally harvest XP
+Literally harvest XP!
+
+Original mod written by RealGecko, now mostly rewritten by LiskoSlayer63
 '''
 [[dependencies.xpfromharvest]]
 modId = "forge"
 mandatory = true
-versionRange = "[41,)"
+versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.xpfromharvest]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19,1.20)"
+versionRange = "[1.19.2,1.20)"
 ordering = "NONE"
 side = "BOTH"
